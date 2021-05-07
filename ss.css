@@ -1,0 +1,15 @@
+.bb{
+
+    width: 60%;
+    margin:200px 0 ;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+body{
+    background:linear-gradient(to right,black,rgb(68, 18, 18),#343a40,#777777);
+}
+ul li a{
+    text-decoration: none;
+}
