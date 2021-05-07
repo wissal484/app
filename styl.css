@@ -1,0 +1,47 @@
+#out_box{
+width: 400px;
+height:300px ;
+position: absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background-color: rgb(74, 77, 119);
+}
+#in_box{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 340px;
+    height: 240px;
+    text-align: center;
+    background-color: rgb(116, 116, 255);
+
+}
+#time{
+    width:100% ;
+    height: 200px;
+    color: rgb(157, 255, 255);
+    font-size: 55px;
+    font-family:'Saira Stencil One', cursive;
+    background-color: black;
+    line-height: 200px;
+
+}
+#set_time ,#set_date{
+margin: 0%;
+}
+#date{
+
+    height: 40px;
+    background-color: blanchedalmond;
+    font-size: 22px;
+    font-family:'Saira Stencil One', cursive;
+
+}
+input[ type="color" i]{
+border: 0px solid  black;
+background-color: black;
+
+}
+

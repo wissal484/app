@@ -1,0 +1,49 @@
+nav img {
+max-width: 64px;
+max-height: 64px;
+object-fit: scale-down;
+border-radius: 50%;
+}
+ main{
+     text-align: center;
+
+ }
+#codes{
+
+    width: 98%;
+    min-height:280px ;
+    border-radius: 14px;
+    border: 2px solid rgb(131, 131, 131);
+}
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+#buttons button{
+    width: 47%;
+    border-radius: 12px;
+    border: 0px;
+    padding: 12px;
+}
+#remouve {
+    background-color: salmon;
+    color: seashell;
+}
+#play{
+    background-color: rgb(54, 129, 123);
+    color: wheat;
+}
+
+
+#resultat{
+    padding: 10px;
+    border-bottom:2px solid  rgb(131, 131, 131) ;
+    margin:8px 0px ;
+    font-weight: bold;
+}
+
+
+
+
+
+

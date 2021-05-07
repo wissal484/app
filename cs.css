@@ -1,0 +1,29 @@
+#app{
+    width: 100%;
+    max-width: 100%;
+}
+#app p{
+    width: 100%;
+    padding: 14px;
+    background-color: rgb(0, 194, 152);
+    color: bisque;
+    text-align: center;
+    font-family:sans-serif ;
+    font-size: 22px;
+
+}
+#app textarea{
+    width: 100%;
+    border: 1px solid rgb(138,138,138) ;
+    outline: none;
+    border-radius: 14px;
+    min-height: 140px;
+
+}
+#app select{
+    width:100% ;
+    padding: 14px;
+    border-radius:15
+    px ;
+    margin-bottom: 14px;
+}

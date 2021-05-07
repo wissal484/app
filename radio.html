@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="stl.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Radio monde </title>
+  </head>
+  <body>
+        <!-- Image and text -->
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+     Radio
+    </a>
+  <img src="img/icon.png" alt="" style="width: 50px; height: 50px; border-radius: 50%;">
+  </nav>
+
+<main id="player">
+    <header>
+        <img src="img/logo.png" alt="">
+        <h2 id="tt">Radio box</h2>
+        <p id="title_audio"> Radio 1</p>
+    </header>
+    <div id="content">
+        <article id="buttons">
+            <img src="img/bak.png" id="back">
+            <img src="img/play.png" id="play">
+            <img src="img/next.png" id="next">
+            <audio src="audio.mp3" id="audio_file"></audio>
+            
+        </article>
+        <article id="volume">
+            <h2>volume</h2>
+            <input id="volume_range" type="range"class="progress-bar progress-bar-striped progress-bar-animated">
+            <h2>vitesse</h2>
+            <input id="vitesse_range" type="range" class="progress-bar progress-bar-striped progress-bar-animated" max="200" min="0">
+        </article>
+
+        
+  <article id="color">
+    <button id="color1"></button>
+    <button id="color2"></button>
+    <button id="color3"></button>
+    <button id="color4"></button>
+    </article>
+
+    </div>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="radio.js"></script>
+    <script src="rd.js"></script>
+    <script src="bg.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
